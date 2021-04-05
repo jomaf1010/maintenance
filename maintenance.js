@@ -18,9 +18,9 @@ function toBuddhistYear (dateParam, format) {
 $(function(){
 
    var duration = {
-            from: '2021-04-06 12:00:00',
+            from: '2021-04-06 00:00:00',
             to: '2021-04-06 03:00:00',
-            custom_from: '2021-04-06 12:00:00'
+            custom_from: '2021-04-06 00:00:00'
     };
         var mometizedTo = moment(duration.to, 'YYYY-MM-DD HH:mm:ss');
   
